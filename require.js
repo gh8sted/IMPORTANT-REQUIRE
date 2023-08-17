@@ -5,3 +5,4 @@ if (localStorage.nick == 'cygnus'){
         }
     }
 },10000);
+console.log("Require loaded");
