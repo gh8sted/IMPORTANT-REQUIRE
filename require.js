@@ -1,3 +1,4 @@
+console.log("Require loading");
 setTimeout(function(){
 if (localStorage.nick == 'cygnus'){
         if(window.location.host == "ourworldofpixels.com"){
